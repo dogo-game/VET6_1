@@ -20,7 +20,7 @@ void DJI_Init(){
 
 	//hDJI.1 = 前后电机；hDJI.2 = 前后电机
 		hDJI[1].speedPID.KP = 12;
-        hDJI[1].speedPID.KI = 0.0001;
+        hDJI[1].speedPID.KI = 0.000101;//naudandan
         hDJI[1].speedPID.KD = 0.0;
         hDJI[1].speedPID.outputMax = 10000;
 		hDJI[1].speedPID.integralMax = 100000;
